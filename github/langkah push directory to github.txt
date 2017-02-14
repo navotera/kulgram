@@ -1,19 +1,28 @@
+Langkah memanfaatkan github sebagai repository
+
+1. Buat repository baru di Github
+	berinama
+
+
 echo "# kulgram" >> README.md
 git init
 git add *.*
 git commit -m "first commit"
-git remote add origin https://github.com/navotera/namaRepo.git
+git remote add origin https://github.com/navotera/namaRepoAnda.git
 git push -u origin master
 
 
 
 
-//commint kedua 
+//later ... commit 
 git add *.*
-git commist -m "any commit message" 
+git commit -m "any commit message" 
 git push -u origin master
 
 
 //simpan local auth agar pas git push tidak minta username and password 
 //ketik ini setelah memasukkan passsword waktu mengetikkan perintah git push -u origin master
 git config --global credential.helper wincred
+
+
+//cara menclone --> coba cari dian hehe
