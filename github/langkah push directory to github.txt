@@ -1,10 +1,12 @@
 Langkah memanfaatkan github sebagai repository
 
 1. Buat repository baru di Github
-	berinama
+	berinama. 
+	
+2. Buka CMD di windows arahkan folder cmd pada folder yang akan disinkronkan sebagai repo di github
 
 
-echo "# kulgram" >> README.md
+
 git init
 git add *.*
 git commit -m "first commit"
